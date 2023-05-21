@@ -15,10 +15,9 @@ function getadvice() {
         }).catch(error => {
             console.log(error);
         })
-    )
 }
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', () {
     getadvice();
 })
 
